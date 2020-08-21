@@ -4,6 +4,7 @@ Promises in javascript is like promises in real life. If the promise is complete
 In javascript promise gives two params, first one if the promise is reslove and the second one if promise is not fullfiled.
 
 **Example:**
+We have a condition that, child promise to his parent that, first complete the work than go for play.
 ```
 let IsWorkComplete = new Promise(function(resolve,reject){
  let isWork=false;
